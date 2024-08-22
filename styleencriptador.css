@@ -1,0 +1,108 @@
+.titulo {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 0px;
+  color: rgb(85, 53, 6);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 20000;
+  font-style: normal;
+  -webkit-text-stroke: 0.1px rgb(39, 18, 1);
+}
+
+.encriptador {
+  border: black;
+  width: 900px;
+  margin: auto;
+  height: 250px;
+
+
+}
+
+button {
+  margin-left: 100px;
+  margin-right: 50px;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 500px;
+  border-radius: 4px;
+  border: 0px;
+  border: outset rgb(114, 54, 5);
+  background-color: rgba(165, 126, 75, 0.733);
+  color: white;
+  margin-top: 10px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background-color: rgb(165, 126, 75);
+  box-shadow: 0 0 20px #a9412d;
+}
+
+.Mensaje {
+  width: 80%;
+  height: 80%;
+  display: inline-block;
+  resize: none;
+  margin-top: 20px;
+  background-color: rgba(165, 126, 75, 0.616);
+  border: outset rgb(114, 54, 5);
+  color: white;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+
+
+.botones {
+  margin-top: 10px;
+}
+
+body {
+  background-image: url(imagen/FondoEncriptador10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.texto {
+  resize: none;
+  width: 1145px;
+  height: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+  border: outset rgb(114, 54, 5);
+  background-color: rgba(165, 126, 75, 0.616);
+  color: white;
+  font-size: 15px;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.Mensaje::placeholder {
+  color: rgb(233, 233, 233);
+}
+
+.mensajeRecibido{
+  margin-top: 3px;
+  color: rgb(233, 233, 233);
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+

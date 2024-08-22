@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desifra la carta</title>
+    <link rel="stylesheet" href="styleencriptador.css">
+
+    <!--Titulo-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+            rel="stylesheet">
+
+    <!--Textos-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <h1 class="titulo">Desifra la Carta</h1>
+    <div class="encriptador">
+        <center><textarea class="Mensaje" cols="10" rows="13" name="" id="mensaje"
+                placeholder="Ingresa el mensaje"></textarea></center>
+    </div>
+
+    <br><br>
+    <div class="botones">
+        <button type="button" id="botonEncriptar">Encriptar</button>
+        <button type="button" id="botonDesencriptar">Desencriptar</button>
+    </div>
+    <div class="texto" id="texto">
+        <p class="mensajeRecibido" id="mensajeRecibido">El mensaje aparecerá aqui:</p>
+    </div>
+
+    <script src="scriptencriptador.js"></script>
+</body>
+
+</html>
